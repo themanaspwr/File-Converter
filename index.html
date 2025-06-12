@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Processing Tool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_original.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Processing Tool</h1>
+        <div class="upload-section">
+        <input type="file" id="fileInput" accept=".txt,.csv,.json,.jpg,.jpeg,.png,.webp">
+            <select id="convertType">
+                <option value="txt">Text (.txt)</option>
+                <option value="csv">CSV (.csv)</option>
+                <option value="json">JSON (.json)</option>
+                <option value="jpg">JPG (.jpg)</option>
+                <option value="png">PNG (.png)</option>
+                <option value="webp">WEBP (.webp)</option>
+                <option value="pdf">PDF (.pdf)</option>
+            </select>
+            <button id="processBtn">View File Content</button>
+            <button id="convertBtn">Convert File</button>
+        </div>
+        <div class="output-section">
+            <h2>Processed Content:</h2>
+            <pre id="output"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
