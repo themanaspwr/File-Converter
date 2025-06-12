@@ -19,3 +19,8 @@ A lightweight browser-based tool to view and convert files like `.txt`, `.csv`, 
 - Vanilla JavaScript (FileReader API, canvas, PDF.js)
 
 ## 📂 Folder Structure
+📁 File-Converter
+├── index.html
+├── script.js
+├── style.css
+└── README.md
